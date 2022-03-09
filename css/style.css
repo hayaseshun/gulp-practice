@@ -2,8 +2,9 @@ body {
   display: block;
   -webkit-animation: none;
           animation: none;
-  color: #c55;
+  color: #000;
   border: 0;
+  font-size: 50px;
 }
 @media (min-width: 768px) {
   body {
