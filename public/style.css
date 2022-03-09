@@ -1,0 +1,6 @@
+.test {
+  color: #111;
+}
+.test .test-child {
+  color: #333;
+}
