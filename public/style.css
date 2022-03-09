@@ -1,6 +1,56 @@
+body {
+	-webkit-animation: none;
+	animation: none;
+	border: 0;
+	color: #c55;
+	display: block;
+}
+
 .test {
-  color: #111;
+	color: #111;
 }
+
 .test .test-child {
-  color: #333;
+	color: #333;
 }
+
+::-moz-placeholder {
+	color: gray;
+}
+
+::placeholder {
+	color: gray;
+}
+
+.image {
+	background-image: url(image@1x.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+
+.image {
+	background-image: url(image@2x.png);
+}
+
+}
+
+@media (min-width: 768px) {
+
+body {
+	background: #000;
+}
+
+.test {
+	background: #000;
+}
+
+.test .test-child {
+	background: #000;
+}
+
+.image {
+	background: #000;
+}
+
+}
+
